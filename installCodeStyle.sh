@@ -10,7 +10,7 @@ for dir in $HOME/Library/Preferences/IntelliJIdea*/codestyles \
            $HOME/.IdeaIC*/config/codestyles \
            $HOME/.AndroidStudio*/config/codestyles
 do
-  cp -frv $( cd "$(dirname "${BASH_SOURCE[0]}" )" && pwd )/configs/* $i 2> /dev/null
+  cp -frv $( cd "$(dirname "${BASH_SOURCE[0]}" )" && pwd )/idea/* $dir 2> /dev/null
 done
 
 echo "Done."
