@@ -5,8 +5,12 @@ Clone this repository and follow instruction to set eveything up.
 
 IDEA and Android Studio setup
 -----------------------------
-
+=== First way
 Run `.installCodeStyle.sh` on Mac or Linux. *Windows is not supported yet.*
+
+=== Second way
+Import `./idea/StanfyIdeaCodeStyle.jar` to IntelliJ Idea or Android studio. You can do this from a welcome screen
+(`Configure -> Import settings`) or when some project is opened from `File -> Import Setting...`
 
 Checkstyle Config
 -----------------
